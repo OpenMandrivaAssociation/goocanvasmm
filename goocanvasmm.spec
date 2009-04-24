@@ -1,11 +1,11 @@
 %define api 0.1
-%define major 4
+%define major 5
 %define libname %mklibname %{name} %{api} %{major}
 %define develname %mklibname %{name} -d
 
 Summary:	C++ wrappers for goocanvas
 Name:		goocanvasmm
-Version:	0.13.0
+Version:	0.14.0
 Release:	%mkrel 1
 License:	LGPLv2+
 Group:		System/Libraries
