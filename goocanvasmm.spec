@@ -62,4 +62,5 @@ rm -rf %{buildroot}
 %{_libdir}/pkgconfig/*.pc
 %{_includedir}/%{name}-%{api}
 %{_libdir}/%{name}-%{api}/include
-%{_libdir}/%{name}-%{api}/proc/m4/*.m4
+%doc %_datadir/doc/%name-%api
+%_datadir/devhelp/books/%name-%api
