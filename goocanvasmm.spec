@@ -59,7 +59,7 @@ rm -rf %{buildroot}
 %defattr(-,root,root)
 %{_libdir}/*.so
 %{_libdir}/*.la
-%{_libdir}/pkgconfig/*.pc
+%{_libdir}/pkgconfig/%name-%api.pc
 %{_includedir}/%{name}-%{api}
 %{_libdir}/%{name}-%{api}/include
 %doc %_datadir/doc/%name-%api
