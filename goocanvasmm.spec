@@ -5,7 +5,7 @@
 
 Summary:	C++ wrappers for goocanvas
 Name:		goocanvasmm
-Version:	0.15.1
+Version:	0.15.2
 Release:	%mkrel 1
 License:	LGPLv2+
 Group:		System/Libraries
