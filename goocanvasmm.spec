@@ -62,5 +62,5 @@ rm -rf %{buildroot}
 %{_libdir}/pkgconfig/%name-%api.pc
 %{_includedir}/%{name}-%{api}
 %{_libdir}/%{name}-%{api}/include
-%doc %_datadir/doc/%name-%api
-%_datadir/devhelp/books/%name-%api
+#%doc %_datadir/doc/%name-%api
+#%_datadir/devhelp/books/%name-%api
