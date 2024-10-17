@@ -11,7 +11,7 @@ Version:	1.90.11
 Release:	1
 License:	LGPLv2+
 Group:		System/Libraries
-URL:		http://www.gtkmm.org
+URL:		https://www.gtkmm.org
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/%{name}/%{url_ver}/%{name}-%{version}.tar.xz
 
 BuildRequires:	pkgconfig(glibmm-2.4)
